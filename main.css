@@ -1,0 +1,257 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+
+header {
+  padding: 20px 0;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('images/jumbo3.jpg');
+  background-size: cover;
+  color: white;
+  height: auto;
+  text-shadow: 0.25px 0.25px 0.25px white;
+  padding-right: 20%;
+  padding-left: 10%;
+  font-size: 100%;
+}
+
+.jumbotron :link {color: rgb(175, 205, 250);}
+.jumbotron :visited{color: rgb(175, 205, 250);}
+a:link {color: #1f50b9;}
+a:visited {color: #1f50b9;}
+
+.jumbotron h2 {
+  padding-bottom: 0.5em;
+  font-size: 2.5em;
+  font-weight: 700;
+
+}
+
+.jumbotron h3 {
+ 
+  font-size: 1.4em;
+  font-weight: 300;
+  color: white;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+#Bethany img {
+  max-width:18em;
+  height:auto;
+}
+
+#Editor img {
+  max-width:18em;
+  min-width:16em;
+  height:auto;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #1f50b9;
+  text-shadow: none;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #1f50b9;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.resources {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.resources .col-sm-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resources ul {
+  list-style: none;
+}
+
+.resources li img {
+  width:9em;
+  height:13.5em;
+}
+
+.article .col-sm-8 {
+  float: none;
+  margin: 0 auto;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.navbar{
+  background-color: white;
+  color: #1f50b9;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+.navbar-inverse .navbar-brand{
+  color: #1f50b9;
+}
+
+.navbar-inverse .navbar-nav {
+  margin: 1em;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: rgb(70, 88, 145);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover
+{
+  color:#1f50b9;
+}
+
+.navbar p{
+  color: #1f50b9;
+  font-size: .5em;
+  margin-bottom: 5px;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+#faq h3 {
+  margin: 0px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+#faq p {
+  text-align: justify;
+}
+
+#faq .article img {
+  width:200px;
+  height: auto;
+}
+
+form {
+  display: block;
+  margin: 20px;
+}
+
+
+input[type=text] {
+  border: 1px dotted #999;
+  border-radius: 0;
+  font-family : inherit;
+  font-size   : 100%;
+  -webkit-appearance: none;
+  width : 100%;
+  margin: 5px;
+  padding: 5px;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+}
+
+textarea {
+  border: 1px dotted #999;
+  border-radius: 0;
+  font-family : inherit;
+  font-size   : 100%;
+  -webkit-appearance: none;
+  width : 100%;
+  margin: 5px;
+  padding: 5px;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  background-color: transparent;
+  color: #1f50b9;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #1f50b9;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+.tab{ text-indent: 40px;}
