@@ -1,7 +1,6 @@
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1.5em;
   line-height: 1.6em;
@@ -10,7 +9,7 @@ body {
 header {
   padding: 20px 0;
   position: relative;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 header .row,
@@ -63,13 +62,15 @@ a:visited {color: #e23333;}
   padding-bottom: 0.5em;
   font-size: 3.5em;
   font-weight: 700;
-  font-family: 'Monoton', cursive;
+  font-style: "extra-bold";
+  font-family: 'Merriweather Sans', sans-serif;
 
 }
 
 .jumbotron h3 {
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   text-shadow: 2.25px 1.25px 2.25px red;
 }
@@ -274,3 +275,14 @@ textarea {
 #rates h3 {
 color: red;
 }
+
+
+
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
