@@ -277,6 +277,10 @@ color: red;
 }
 
 
+#careers p {
+  padding: 0;
+  margin: 0;
+}
 
 @media (min-width: 768px) {
 .carousel-multi-item-2 .col-md-3 {
