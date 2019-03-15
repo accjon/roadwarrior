@@ -63,7 +63,7 @@ a:visited {color: #e23333;}
   font-size: 3.5em;
   font-weight: 700;
   font-style: "extra-bold";
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Monoton', cursive;
 
 }
 
@@ -273,7 +273,7 @@ textarea {
   }
 
 #rates h3 {
-color: red;
+color: #e23333;
 }
 
 
